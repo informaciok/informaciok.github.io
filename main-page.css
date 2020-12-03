@@ -12,22 +12,32 @@
 }
 
 header {
-  background: lightgrey
+  background: black
 }
 
 header h2 {
   position: relative;
   right: 2rem;
-  color: black;
+  left: .1rem;
+  color: white;
   font-family: "Times New Roman", serif;
   text-align: center
+}
+
+/* = main - links = */
+#links h2 {
+  text-align: center
+}
+
+#links .btn-info {
+  border-radius: 9999px
 }
 
 /* ==== COMPUTER ==== */
 
 @media (min-width: 1024px) {
 
-  /* == HEADER == */
+  /* == header == */
   header h2 {
       font-size: 5rem;
   }
