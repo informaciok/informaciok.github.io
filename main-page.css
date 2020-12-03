@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box
+}
+
+/* ==== ITEMS ==== */
+
+/* == header == */
+@media (max-width: 767px) {
+  #header-bigger-screen {
+      display: none
+  }
+}
+
+header {
+  background: lightgrey
+}
+
+header h2 {
+  position: relative;
+  right: 2rem;
+  color: black;
+  font-family: "Times New Roman", serif;
+  text-align: center
+}
+
+/* ==== COMPUTER ==== */
+
+@media (min-width: 1024px) {
+
+  /* == HEADER == */
+  header h2 {
+      font-size: 5rem;
+  }
+}
