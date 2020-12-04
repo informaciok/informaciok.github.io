@@ -70,6 +70,13 @@ footer .fullkiegtem {
   font-size: 1.7rem
 }
 
+@media (min-width: 375px) {
+
+  footer .small-mobile-only {
+    display: none
+  }
+}
+
 /* ==== COMPUTER ==== */
 
 @media (min-width: 1024px) {
