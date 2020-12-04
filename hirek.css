@@ -26,6 +26,10 @@ header h2 {
 }
 
 /* == main == */
+main #pages p {
+  display: inline-block
+}
+
 main p {
   font-size: 1.7rem
 }
@@ -40,10 +44,10 @@ main p {
 
 }
 
-
 main article {
   padding-bottom: 2rem
 }
+
 /* == footer == */
 footer {
   padding: 1rem;
@@ -92,6 +96,19 @@ footer .fullkiegtem {
 
   /* == header == */
   header h2 {
-      font-size: 5rem;
+    font-size: 5rem;
+  }
+
+  /* == main == */
+  main .btn-default, main .btn-info {
+    background: white;
+    color: black;
+    border-color: grey
+  }
+
+  main .btn-default:hover, main .btn-info:hover {
+    background: lightgrey;
+    color: black;
+    border-color: grey
   }
 }
