@@ -24,3 +24,74 @@ header h2 {
   font-weight: bold;
   text-align: center
 }
+
+/* == main == */
+main p {
+  font-size: 1.7rem
+}
+
+@media (max-width: 1023px) {
+
+  main .blue {
+    display: inline-block;
+    background: lightblue;
+    padding: 3rem initial
+  }
+
+}
+
+
+main article {
+  padding-bottom: 2rem
+}
+/* == footer == */
+footer {
+  padding: 1rem;
+  margin-top: 2rem
+}
+
+footer, footer a, footer .fa-instagram{
+  text-align: center;
+  background: black;
+  color: white;
+  
+}
+
+footer a:hover {
+  color: white
+}
+
+footer .first {
+  padding-right: 1rem
+}
+
+footer a, footer p {
+  line-height: 2
+}
+
+footer p {
+  border: .1px solid;
+  margin-top: 1rem
+}
+
+footer .fullkiegtem {
+  font-size: 1.7rem
+}
+
+@media (min-width: 375px) {
+
+  footer .small-mobile-only {
+    display: none
+  }
+}
+
+
+/* ==== COMPUTER ==== */
+
+@media (min-width: 1024px) {
+
+  /* == header == */
+  header h2 {
+      font-size: 5rem;
+  }
+}

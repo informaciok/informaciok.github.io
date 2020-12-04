@@ -38,7 +38,6 @@ header h2 {
 /* == footer == */
 
 footer {
-  /*padding-top: .1rem;*/
   padding: 1rem;
   margin-top: 2rem
 }
@@ -65,6 +64,10 @@ footer a, footer p {
 footer p {
   border: .1px solid;
   margin-top: 1rem
+}
+
+footer .fullkiegtem {
+  font-size: 1.7rem
 }
 
 /* ==== COMPUTER ==== */
