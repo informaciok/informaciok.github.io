@@ -1,32 +1,18 @@
-* {
-  box-sizing: border-box
-}
+/**
+*
+* Articles
+* Articles with secondary color
+* Button style changeS on computer
+*
+*/
 
 
-/* ==== ITEMS ==== */
 
-/* == header == */
-@media (max-width: 767px) {
-  #header-bigger-screen {
-      display: none
-  }
-}
 
-header {
-  background: black
-}
+/*------------------------------------*\
+  #ARTICLES
+\*------------------------------------*/
 
-header h2 {
-  position: relative;
-  top: 1rem;
-  right: 1rem;
-  color: white;
-  font-family: Calibri, sans-serif;
-  font-weight: bold;
-  text-align: center
-}
-
-/* == main == */
 main #pages p {
   display: inline-block
 }
@@ -35,72 +21,33 @@ main p {
   font-size: 1.7rem
 }
 
-@media (max-width: 1023px) {
-
-  main .blue {
-    display: inline-block;
-    background: lightblue;
-    padding: 3rem initial
-  }
-
-}
-
 main article {
   padding-bottom: 2rem
 }
 
-/* == footer == */
-footer {
-  padding: 1rem;
-  margin-top: 2rem
-}
+/*------------------------------------*\
+  #ARTICLES WITH SECONDARY COLOR
+\*------------------------------------*/
 
-footer, footer a, footer .fa-instagram{
-  text-align: center;
-  background: black;
-  color: white;
-  
-}
+@media (max-width: 1023px) {
 
-footer a:hover {
-  color: white
-}
-
-footer .first {
-  padding-right: 1rem
-}
-
-footer a, footer p {
-  line-height: 2
-}
-
-footer p {
-  border: .1px solid;
-  margin-top: 1rem
-}
-
-footer .fullkiegtem {
-  font-size: 1.7rem
-}
-
-@media (min-width: 375px) {
-
-  footer .small-mobile-only {
-    display: none
+  main .blue {
+    display: inline-block;
+    background: var(--secondary-color);
+    padding: 3rem initial
   }
+
+  main .blue h2, main .blue p {
+    color: var(--secondary-font-color)
+  }
+
 }
 
-
-/* ==== COMPUTER ==== */
+/*------------------------------------*\
+  #BUTTON STYLE CHANGES ON COMPUTER
+\*------------------------------------*/
 
 @media (min-width: 1024px) {
-
-  /* == header == */
-  header h2 {
-    font-size: 5rem;
-  }
-
-  /* == main == */
   main .btn-default, main .btn-info {
     background: white;
     color: black;

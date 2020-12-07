@@ -3,4 +3,120 @@
 *
 * Style sheets:
 *
+* main.css..........Main page
+* hirek.css
+* article.css
+*/
+
+
+
+
+/**
+* Content of this file:
 *
+* VARIABLES
+* variables.........Global colors
+*
+* BOX-SIZING
+* box-sizing
+*
+* CONTAINERS
+* header
+* footer
+*/
+
+
+
+
+/*------------------------------------*\
+  #VARIABLES
+\*------------------------------------*/
+:root {
+  --primary-color: black;
+  --primary-font-color: white;
+  --secondary-color: lightblue;
+  --secondary-font-color: black;
+}
+
+
+/*------------------------------------*\
+  #BOX-SIZING
+\*------------------------------------*/
+
+* {
+  box-sizing: border-box
+}
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+@media (max-width: 767px) {
+  #header-bigger-screen {
+    display: none
+  }
+}
+
+header {
+  background: var(--primary-color)
+}
+
+header h2 {
+  position: relative;
+  top: 1rem;
+  right: 1rem;
+  color: var(--primary-font-color);
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+  text-align: center
+}
+
+@media (min-width: 1024px) {
+  header h2 {
+    font-size: 5rem;
+  }
+}
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+footer {
+  padding: 1rem;
+  margin-top: 2rem
+}
+
+footer, footer a, footer .fa-instagram{
+  text-align: center;
+  background: var(--primary-color);
+  color: var(--primary-font-color);
+  
+}
+
+footer a:hover {
+  color: var(--primary-font-color)
+}
+
+footer .first {
+  padding-right: 1rem
+}
+
+footer a, footer p {
+  line-height: 2
+}
+
+footer p {
+  border: .1px solid;
+  margin-top: 1rem
+}
+
+footer .fullkiegtem {
+  font-size: 1.7rem
+}
+
+@media (min-width: 375px) {
+
+  footer .small-mobile-only {
+    display: none
+  }
+}
