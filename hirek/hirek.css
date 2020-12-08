@@ -2,9 +2,10 @@
 *
 * Articles
 * Articles with secondary color
-* Button style changeS on computer
+* Button style change on computer
 *
 */
+
 
 
 
@@ -12,18 +13,13 @@
 /*------------------------------------*\
   #ARTICLES
 \*------------------------------------*/
+.article { padding-bottom: 2rem }
 
-main #pages p {
-  display: inline-block
-}
+  .article-p { font-size: 1.7rem }
 
-main p {
-  font-size: 1.7rem
-}
 
-main article {
-  padding-bottom: 2rem
-}
+
+
 
 /*------------------------------------*\
   #ARTICLES WITH SECONDARY COLOR
@@ -31,32 +27,36 @@ main article {
 
 @media (max-width: 1023px) {
 
-  main .blue {
-    display: inline-block;
+  .secondary-colored {
+    display:    inline-block;
     background: var(--secondary-color);
-    padding: 3rem initial
+    padding:    3rem initial
   }
 
-  main .blue h2, main .blue p {
-    color: var(--secondary-font-color)
-  }
+    .secondary-colored-text {
+      color: var(--secondary-font-color)
+    }
 
 }
+
+
+
+
 
 /*------------------------------------*\
   #BUTTON STYLE CHANGES ON COMPUTER
 \*------------------------------------*/
 
 @media (min-width: 1024px) {
-  main .btn-default, main .btn-info {
-    background: white;
-    color: black;
+  .btn-default, .btn-info {
+    background:   white;
+    color:        black;
     border-color: grey
   }
 
-  main .btn-default:hover, main .btn-info:hover {
-    background: lightgrey;
-    color: black;
+  .btn-default:hover, .btn-info:hover {
+    background:   lightgrey;
+    color:        black;
     border-color: grey
   }
 }

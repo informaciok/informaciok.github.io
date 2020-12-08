@@ -5,15 +5,16 @@
 */
 
 
+
+
+
 /*------------------------------------*\
   #LINKS
 \*------------------------------------*/
 
-#links h2 {
+.links .welcome {
   text-align: center;
-  font-size: 2.5rem
+  font-size:  2.5rem
 }
 
-#links .btn-info {
-  border-radius: 9999px
-}
+.links .btn-info { border-radius: 9999px }

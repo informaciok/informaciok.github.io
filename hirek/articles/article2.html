@@ -15,21 +15,21 @@
 <body>
 
   <!-- HEADER -->
-  <a href="../.."><header class="container">
+  <a href="../.."><header class="container header">
 
     <div class="row">
 
-        <div class="col-xs-5 col-sm-2">
-            <img class="img-responsive" src="../../assets/profile.jpg" alt="Fullkiegtem_">
-        </div>
+      <div class="col-xs-5 col-sm-2">
+        <img class="img-responsive" src="../../assets/profile.jpg" alt="Fullkiegtem_">
+      </div>
 
-        <div class="col-xs-6 col-sm-offset-1 col-sm-7">
-            <h2>Fullkiegtem_</h2>
-        </div>
+      <div class="col-xs-6 col-sm-offset-1 col-sm-7">
+        <h2 class="page-name">Fullkiegtem_</h2>
+      </div>
 
-        <div class="col-sm-2" id="header-bigger-screen">
-            <img class="img-responsive" src="../../assets/profile.jpg" alt="Fullkiegtem_" class="right">
-        </div>
+      <div class="col-sm-2 header-bigger-screen">
+        <img class="img-responsive" src="../../assets/profile.jpg" alt="Fullkiegtem_" class="right">
+      </div>
 
     </div>
 
@@ -39,40 +39,61 @@
   <main class="container">
 
     <!-- Navigációs sáv -->
-    <div class="row" id="pages" style="margin-top: 1rem"> 
+    <div class="row nav-line" style="margin-top: 1rem"> 
 
       <div class="col-xs-12 col-sm-offset-2">
-        <a href="../../index.html">Főoldal</a>
-        <p> >> </p>
-        <a href="../hirek.html"> Hírek</a>
-        <p> >> </p>
-        <p>Második cikk</p>
+        <a class="nav-page" href="../../index.html">
+          Főoldal
+        </a>
+        <p class="nav-page"> 
+          >> 
+        </p>
+        <a class="nav-page" href="../hirek.html"> 
+          Hírek
+        </a>
+        <p class="nav-page"> 
+          >> 
+        </p>
+        <p class="nav-page">
+          Második cikk
+        </p>
       </div>
       
     </div>
     <!-- Navigációs sáv vége -->
 
+    <!-- Cikk -->
     <div class="row">
 
       <article class="col-sm-offset-2 col-sm-8">
-        <h2>Második cikk</h2>
-        <p>Dátum: </p>
-        <p>Cikk szövege. (Ez csak egy kitöltő szöveg, hogy meg tudjam csinálni az elrendezést.) Itt olvashatják a kíváncsi látogatók a teljes cikket. :)</p>
+        <h2>
+          Második cikk
+        </h2>
+        <p class="article-p">
+          Dátum: 
+        </p>
+        <p class="article-p">
+          Cikk szövege.
+          (Ez csak egy kitöltő szöveg, hogy meg tudjam csinálni az elrendezést.)
+        </p>
       </article>
+
     </div>
+    <!-- Cikk vége-->
+    
   </main>
 
   <!-- FOOTER -->
-  <footer class="container">
+  <footer class="container footer">
     
-    <a class="fullkiegtem first" href="https://www.instagram.com/szipus.videok/?hl=hu"><i class="fa fa-instagram" aria-hidden="true"></i> fullkiegtem_</a>
+    <a class="insta-link fullkiegtem first" href="https://instagram.com/fullkiegtem_?igshid=jx5lsrgdu86z"><i class="fa fa-instagram" aria-hidden="true"></i> fullkiegtem_</a>
     <br class="small-mobile-only">
-    <a class="fullkiegtem" href="https://www.instagram.com/szipus.memek/?hl=hu"><i class="fa fa-instagram" aria-hidden="true"></i> _.im.fuckingboss._</a>
+    <a class="insta-link fullkiegtem" href="https://instagram.com/_.im.fuckingboss._?igshid=15nf5ap0va1v3"><i class="fa fa-instagram" aria-hidden="true"></i> _.im.fuckingboss._</a>
 
-    <p>Készítette: SzipuWeb Vállalat
+    <p class="made-by">Készítette: SzipuWeb Vállalat
       <br>
-      <a class="first" href="https://www.instagram.com/szipus.videok/?hl=hu"><i class="fa fa-instagram" aria-hidden="true"></i> szipus.videok</a>
-      <a href="https://www.instagram.com/szipus.memek/?hl=hu"><i class="fa fa-instagram" aria-hidden="true"></i> szipus.memek</a>
+      <a class="insta-link first" href="https://www.instagram.com/szipus.videok/?hl=hu"><i class="fa fa-instagram" aria-hidden="true"></i> szipus.videok</a>
+      <a class="insta-link" href="https://www.instagram.com/szipus.memek/?hl=hu"><i class="fa fa-instagram" aria-hidden="true"></i> szipus.memek</a>
     </p>
 
   </footer>

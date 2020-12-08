@@ -5,11 +5,11 @@
 */
 
 
+
+
+
 /*------------------------------------*\
   #ARTICLE
 \*------------------------------------*/
 
-main p, main a {
-  display: inline-block;
-  font-size: 1.7rem
-}
+.article-p { font-size: 1.7rem }
